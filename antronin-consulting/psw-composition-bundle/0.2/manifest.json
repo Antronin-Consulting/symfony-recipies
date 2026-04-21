@@ -1,0 +1,16 @@
+{
+    "bundles": {
+        "Antronin/PswCompositionBundle/AntroninPswCompositionBundle": [
+            "all"
+        ]
+    },
+    "copy-from-package": {
+        "config/packages/psw_composition.yaml": "%CONFIG_DIR%/packages/psw_composition.yaml"
+    },
+    "composer-scripts": {
+        "cache:clear": "symfony-cmd"
+    },
+    "aliases": [
+        "psw_composition"
+    ]
+}

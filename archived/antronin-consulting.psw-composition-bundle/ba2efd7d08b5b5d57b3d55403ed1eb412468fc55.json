@@ -1,0 +1,21 @@
+{
+    "manifests": {
+        "antronin-consulting/psw-composition-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Antronin/PswCompositionBundle/AntroninPswCompositionBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-package": {
+                    "config/packages/psw_composition.yaml": "%CONFIG_DIR%/packages/psw_composition.yaml"
+                },
+                "composer-scripts": {
+                    "cache:clear": "symfony-cmd"
+                }
+            },
+            "files": [],
+            "ref": "ba2efd7d08b5b5d57b3d55403ed1eb412468fc55"
+        }
+    }
+}
