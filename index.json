@@ -12,11 +12,11 @@
     "branch": "main",
     "is_contrib": false,
     "_links": {
-        "repository": "github.com/antronin-consulting/psw-composition-bundle",
-        "origin_template": "{package}:{version}@github.com/antronin-consulting/psw-composition-bundle:main",
-        "recipe_template": "https://raw.githubusercontent.com/antronin-consulting/psw-composition-bundle/prod/{package_dotted}.{version}.json",
+        "repository": "github.com/Antronin-Consulting/pswCompositionBundle",
+        "origin_template": "{package}:{version}@github.com/Antronin-Consulting/pswCompositionBundle:main",
+        "recipe_template": "https://raw.githubusercontent.com/Antronin-Consulting/pswCompositionBundle/prod/{package_dotted}.{version}.json",
         "recipe_template_relative": "{package_dotted}.{version}.json",
-        "archived_recipes_template": "https://raw.githubusercontent.com/antronin-consulting/psw-composition-bundle/prod/archived/{package_dotted}/{ref}.json",
+        "archived_recipes_template": "https://raw.githubusercontent.com/Antronin-Consulting/pswCompositionBundle/prod/archived/{package_dotted}/{ref}.json",
         "archived_recipes_template_relative": "archived/{package_dotted}/{ref}.json"
     }
 }
