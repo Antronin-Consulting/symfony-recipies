@@ -1,8 +1,8 @@
 #
-# File: \config\psw_composition.yaml
+# File: \config\packages\psw_composition.yaml
 # Author: Peter Nagy <peter@antronin.consulting>
 # -----
-antronin.psw_composition:
+psw_composition:
         length:
             min: '%env(int:PASSWORD_MINLENGTH)%'
             max: '%env(int:PASSWORD_MAXLENGTH)%'

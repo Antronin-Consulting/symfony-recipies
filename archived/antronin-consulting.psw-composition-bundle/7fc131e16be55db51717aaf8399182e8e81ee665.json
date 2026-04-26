@@ -18,10 +18,10 @@
                 "config/packages/psw_composition.yaml": {
                     "contents": [
                         "#",
-                        "# File: \\config\\psw_composition.yaml",
+                        "# File: \\config\\packages\\psw_composition.yaml",
                         "# Author: Peter Nagy <peter@antronin.consulting>",
                         "# -----",
-                        "antronin.psw_composition:",
+                        "psw_composition:",
                         "        length:",
                         "            min: '%env(int:PASSWORD_MINLENGTH)%'",
                         "            max: '%env(int:PASSWORD_MAXLENGTH)%'",
@@ -40,7 +40,7 @@
                         "                pattern: '%env(PASSWORD_SPECIALS_PATTERN)%'",
                         ""
                     ],
-                    "executable": true
+                    "executable": false
                 }
             },
             "ref": "7fc131e16be55db51717aaf8399182e8e81ee665"
