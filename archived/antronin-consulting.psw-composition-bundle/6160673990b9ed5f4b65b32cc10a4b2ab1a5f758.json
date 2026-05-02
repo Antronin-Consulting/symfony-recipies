@@ -3,7 +3,7 @@
         "antronin-consulting/psw-composition-bundle": {
             "manifest": {
                 "bundles": {
-                    "Antronin/PswCompositionBundle/PswCompositionBundle": [
+                    "Antronin-Consulting/PswCompositionBundle/PswCompositionBundle": [
                         "all"
                     ]
                 },
