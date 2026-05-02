@@ -1,6 +1,6 @@
 {
     "bundles": {
-        "Antronin-Consulting/PswCompositionBundle/PswCompositionBundle": [
+        "Antronin-Consulting\\PswCompositionBundle\\PswCompositionBundle": [
             "all"
         ]
     },

@@ -6,7 +6,7 @@
     {
       "label": "Create Symfony Recipe",
       "type": "shell",
-      "command": "git ls-tree HEAD */*/* | ../recipes-checker/run generate:flex-endpoint antronin-consulting/psw-composition-bundle main prod .",
+      "command": "git ls-tree HEAD */*/* | ../recipes-checker/run generate:flex-endpoint antronin-consulting/symfony-recipes prod main .",
       "problemMatcher": []
     }
   ]
