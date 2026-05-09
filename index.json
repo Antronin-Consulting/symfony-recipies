@@ -1,11 +1,15 @@
 {
     "aliases": {
-        "psw_composition": "antronin-consulting/psw-composition-bundle"
+        "psw_composition": "antronin-consulting/psw-composition-bundle",
+        "psw_expiration": "antronin-consulting/psw-expiration-bundle"
     },
     "recipes": {
         "antronin-consulting/psw-composition-bundle": [
             "0.2",
             "0.5"
+        ],
+        "antronin-consulting/psw-expiration-bundle": [
+            "0.8"
         ]
     },
     "recipe-conflicts": [],
