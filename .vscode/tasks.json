@@ -4,9 +4,9 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Create Symfony Recipe",
+      "label": "Create Symfony Recipes",
       "type": "shell",
-      "command": "git ls-tree HEAD */*/* | ../recipes-checker/run generate:flex-endpoint antronin-consulting/symfony-recipes prod main .",
+      "command": "git ls-tree HEAD */*/* | ../../recipes-checker/run generate:flex-endpoint antronin-consulting/symfony-recipes prod main .",
       "problemMatcher": []
     }
   ]
