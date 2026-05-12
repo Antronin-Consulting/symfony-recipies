@@ -9,7 +9,8 @@
             "0.5"
         ],
         "antronin-consulting/psw-expiration-bundle": [
-            "0.8"
+            "0.8",
+            "1.0"
         ]
     },
     "recipe-conflicts": [],

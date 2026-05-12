@@ -1,0 +1,8 @@
+#
+# File: \config\packages\psw_expiration.yaml
+# Author: Peter Nagy <peter@antronin.consulting>
+# -----
+psw_expiration:
+    lifetime: '%env(int:PASSWORD_LIFETIME)%'
+    warning_threshold: '%env(int:PASSWORD_WARNING_THRESHOLD)%'
+    unit: '%env(enum:AntroninConsulting\PswExpirationBundle\Config\Unit:PASSWORD_EXPIRATION_UNIT)%'

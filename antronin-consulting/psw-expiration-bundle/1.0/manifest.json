@@ -1,0 +1,24 @@
+{
+  "bundles": {
+    "AntroninConsulting\\PswExpirationBundle\\PswExpirationBundle": [
+      "all"
+    ]
+  },
+  "copy-from-recipe": {
+    "config/packages/psw_expiration.yaml": "%CONFIG_DIR%/packages/psw_expiration.yaml"
+  },
+  "env": {
+    "PASSWORD_LIFETIME": 90,
+    "PASSWORD_WARNING_THRESHOLD": 7,
+    "PASSWORD_EXPIRATION_UNIT": "days"
+  },
+  "composer-scripts": {
+    "cache:clear": "symfony-cmd"
+  },
+  "gitignore": [
+    ".env"
+  ],
+  "aliases": [
+    "psw_expiration"
+  ]
+}
